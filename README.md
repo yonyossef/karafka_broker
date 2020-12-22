@@ -1,20 +1,34 @@
 # README
 
 https://karolgalanciak.com/blog/2019/02/24/messages-on-rails-part-1-introduction-to-kafka-and-rabbitmq/
+
 https://www.confluent.io/blog/set-up-and-run-kafka-on-windows-linux-wsl-2/#enable-windows-subsystem
+
 https://docs.microsoft.com/he-il/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
 https://karolgalanciak.com/blog/2019/04/07/messages-on-rails-part-2-kafka/
+
 
 Run (3 Server Terminals):
 
 yonyossef@DEVPC:~/kafka_2.13-2.6.0$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
 yonyossef@DEVPC:~/kafka_2.13-2.6.0$ bin/kafka-server-start.sh config/server.properties
+
 yonyossef@DEVPC:~/karafka_example$ bundle exec karafka server
 
+
 Test (Terminal #4):
+
 yonyossef@DEVPC:~/karafka_example$ rails console
+
 Running via Spring preloader in process 12244
+
 irb(main):001:0> UsersResponder.call({ event_name: "user_created", payload: { id: 1 } })
+
+
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
