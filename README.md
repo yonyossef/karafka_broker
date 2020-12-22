@@ -1,5 +1,12 @@
 # README
 
+https://karolgalanciak.com/blog/2019/02/24/messages-on-rails-part-1-introduction-to-kafka-and-rabbitmq/
+https://www.confluent.io/blog/set-up-and-run-kafka-on-windows-linux-wsl-2/#enable-windows-subsystem
+https://docs.microsoft.com/he-il/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+https://karolgalanciak.com/blog/2019/04/07/messages-on-rails-part-2-kafka/
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
@@ -22,6 +29,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+************** This part shows a user record example as it should be, from another app - TBD here as well *****************
+
 
 /**
  * User.js
